@@ -48,13 +48,17 @@
 //! How many measurements are larger than the previous measurement?
 
 fn main() {
+    // Include the test input data (making sure to remove any unwanted
+    // whitespace at the end of the file.
     let input = include_str!("test_input.txt").trim();
 
+    // Create a mutable variable to store the answer to the challenge
     let mut answer = 0;
 
-    for line in input.lines() {
-        todo!();
-    }
+    todo!("The code to solve the challenge will go here.");
 
+    // Print the answer to the challenge to the stdout, making sure to
+    // add a newline character to the end of the string (This is
+    // handled by println!).
     println!("The answer is: {}", answer);
 }
